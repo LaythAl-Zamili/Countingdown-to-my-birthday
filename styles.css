@@ -1,4 +1,4 @@
-/* general styling */
+general styling
 :root {
   --smaller: .75;
 }
@@ -13,10 +13,30 @@ html, body {
   height: 100%;
   margin: 0;
 }
+.background {
+    background-image: url('zuzu.jpg');
+    /* background-size: cover; */
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+.container {
+    color: #333;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8); /* Optional: Adds a semi-transparent background to the container */
+    padding: 20px; /* Optional: Adds some padding inside the container */
+    border-radius: 8px; /* Optional: Rounds the corners of the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow effect to the container */
+}
 
-body {
+/* body {
   align-items: center;
   background-color: #ffd54f;
+
   display: flex;
   font-family: -apple-system, 
     BlinkMacSystemFont, 
@@ -27,7 +47,7 @@ body {
     Cantarell, 
     "Helvetica Neue", 
     sans-serif;
-}
+} */
 
 .container {
   color: #333;
